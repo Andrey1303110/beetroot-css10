@@ -13,12 +13,11 @@ body {
     align-items: stretch;
     align-content: center;
     text-align: center;
-    font-family: myraid;
+    font-family: MyriadPro, Arial, Helvetica, sans-serif;
 }
 
 .section_name {
     text-transform: uppercase;
-
 }
 
 .main_block section:nth-child(1) {
@@ -26,6 +25,7 @@ body {
     background-repeat: round;
     width: 1360px;
     height: 759px;
+    color: rgb(243, 243, 243);
 }
 
 .main_block section:nth-child(3) {
@@ -93,4 +93,16 @@ section:nth-child(5) {
 .pictures div:nth-child(6) {
     background-image: url(../img/dw_dw_right.png);
     width: 375px;
+}
+
+.main_name {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.main_text {
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2px;
 }
