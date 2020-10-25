@@ -16,6 +16,11 @@ body {
     font-family: myraid;
 }
 
+.section_name {
+    text-transform: uppercase;
+
+}
+
 .main_block section:nth-child(1) {
     background: url(../img/upperbg.png);
     background-repeat: round;
@@ -31,10 +36,7 @@ body {
 }
 
 section:nth-child(5) {
-    height: 490px;
-}
-
-.pictures {
+    height: 390px;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -45,9 +47,8 @@ section:nth-child(5) {
     width: 100%;
 }
 
-.imgs {
-    margin: 7px 0;
-    background-repeat: no-repeat;
+.pictures div {
+    background-repeat: round;
 }
 
 .imgs p {
@@ -56,7 +57,7 @@ section:nth-child(5) {
     color: rgb(243, 243, 243);
     text-align: left;
     position: relative;
-    top: 140px;
+    top: 110px;
     left: 40px;
 
 }
@@ -64,16 +65,19 @@ section:nth-child(5) {
 .pictures div:nth-child(1) {
     background-image: url(../img/dw_up_left.png);
     width: 375px;
+    margin-bottom: 10px;
 }
 
 .pictures div:nth-child(2) {
     background-image: url(../img/dw_up_mid.png);
     width: 580px;
+    margin-bottom: 10px;
 }
 
 .pictures div:nth-child(3) {
     background-image: url(../img/dw_up_right.png);
     width: 375px;
+    margin-bottom: 10px;
 }
 
 .pictures div:nth-child(4) {
