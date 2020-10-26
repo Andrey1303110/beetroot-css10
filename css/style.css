@@ -71,7 +71,7 @@ legend {
 .main_block section:nth-child(3) div {
     background-image: url(../img/midbg.png);
     background-repeat: round;
-    width: 1360px;
+    max-width: 1360px;
     height: 350px;
     padding-top: 30px;
 }
@@ -262,6 +262,6 @@ button:active {
 .main_block section:nth-child(1) img:last-child {
     position: relative;
     top: 310px;
-    transform: scale(.7);
+    transform: scale(.65);
 }
 
