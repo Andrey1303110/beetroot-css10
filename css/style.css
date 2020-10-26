@@ -43,24 +43,35 @@ body {
     background-color: rgb(251, 251, 251);
 }
 
-.main_block section:nth-child(3) {
-    background: url(../img/midbg.png);
+fieldset {
+    color: rgb(251, 251, 251);
+    line-height: 2;
+    border: 1px solid rgb(251, 251, 251);
+    margin-inline-start: 298px;
+    margin-inline-end: 298px;
+    padding-block-start: 0em;
+    padding-inline-start: 0em;
+    padding-inline-end: 0em;
+    padding-block-end: 0em;
+    border-width: 1px;
+}
+
+fieldset .section_name {
+    font-size: 20pt;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+legend {
+    width: 350px;
+}
+
+.main_block section:nth-child(3) div {
+    background-image: url(../img/midbg.png);
     background-repeat: round;
     width: 1360px;
-    height: 346px;
-    color: rgb(251, 251, 251);
-    border: 1px solid rgb(251, 251, 251);
-    border: 100px 298px;
-    line-height: 2;
-    padding-bottom: 50px;
-}
-
-.main_block section:nth-child(3) .section_name {
-    padding-top: 50px;
-}
-
-.main_block section:nth-child(3) p {
-    padding-top: 30px;
+    height: 380px;
 }
 
 .main_block section:nth-child(4) {
