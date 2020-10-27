@@ -37,7 +37,7 @@ body {
 
 .main_block section:nth-child(2) .section_name {
     position: relative;
-    top: -48px;
+    top: -55px;
     left: 205px;
     width: 350px;
     background-color: rgb(251, 251, 251);
@@ -85,7 +85,7 @@ legend {
 
 .main_block section:nth-child(4) .section_name {
     position: relative;
-    top: -48px;
+    top: -55px;
     left: 205px;
     width: 350px;
     background-color: rgb(251, 251, 251);
@@ -118,7 +118,7 @@ section:nth-child(5) {
 
 .main_block section:nth-child(6) .section_name {
     position: relative;
-    top: -48px;
+    top: -55px;
     left: 205px;
     width: 350px;
     background-color: rgb(251, 251, 251);
@@ -142,7 +142,7 @@ button {
 }
 
 button:active {
-    background-color: rgb(219, 34, 34);
+    background-color: rgb(235, 25, 25);
 }
 
 .main_block section:nth-child(7) {
@@ -154,9 +154,11 @@ button:active {
     width: 30px;
     height: 31px;
     padding-right: 15px;
+    position: relative;
+    top: 8px;
 }
 
-.main_block section:nth-child(7) img {
+.main_block section:nth-child(7) {
     font-size: 10pt;
 }
 
