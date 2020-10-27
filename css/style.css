@@ -161,7 +161,13 @@ button:active {
 }
 
 .pictures div {
+    transition: .55s cubic-bezier(0, 0.17, 0.41, 1.01);
     background-repeat: round;
+    filter: blur(4px) opacity(0.7);
+}
+
+.pictures div:hover {
+    filter: blur(0px) opacity(1);
 }
 
 .imgs p {
